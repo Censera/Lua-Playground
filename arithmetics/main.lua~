@@ -1,0 +1,14 @@
+x = 8
+y = 4
+
+add = x + y
+sub = x - y
+mul = x * y
+div = x / y
+mod = x % (y + 1)
+
+io.write(x, " + ", y, " = ", add)
+io.write(x, " - ", y, " = ", sub)
+io.write(x, " * ", y, " = ", mul)
+io.write(x, " / ", y, " = ", div)
+io.write(x, " % ", y+1, " = ", mod)
